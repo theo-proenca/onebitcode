@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3><b>Cadastro da liga dos astronautas</b></h3>
+    <form action="">
+        <label for="nome">Nome: </label>
+        <input type="text" name="nome" required>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" required>
+        <label for="email"> - Password: </label>
+        <input type="password" name="password" required>
+        <br>
+        <label for="birth">Data de nascimento: </label>
+        <input type="date" name="birth" required>
+        <label for="foto"> - Foto: </label>
+        <input type="file" name="foto" required>
+        <br>
+        <label for="nation">Nacionalidade: </label>
+        <select name="nation" id="nation">
+            <option value="russian">Russa</option>
+            <option value="american">Americana</option>
+            <option value="brazilian">Brasileira</option>
+        </select>
+        <label for="gender"> - Gênero: </label>
+        <label for="gender" value="F">F</label>
+        <input type="radio" name="gender" value="F" required>
+        <label for="gender" value="M">M</label>
+        <input type="radio" name="gender" value="M" required>
+        <br>
+        Suas principais qualidades:
+        <br>
+        <label for="check">Inteligência</label>
+        <input type="checkbox" name="check">
+        <label for="check">Resiliência</label>
+        <input type="checkbox" name="check">
+        <label for="check">Preparo Físico</label>
+        <input type="checkbox" name="check">
+        <label for="check">Educação</label>
+        <input type="checkbox" name="check">
+        <br>
+        <input type="text" name="why" placeholder="Porquê você quer ser um astronauta?" size="60">
+        <br>
+        <input type="button" value="Criar">
+    </form>
+</body>
+</html>
