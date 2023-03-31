@@ -1,14 +1,16 @@
-let numero = prompt('Informe um número para ser calculado')
-let res = "Tabuada de " + numero
-let tabuada = 1
+let word = prompt('Informe uma palavra:')
+let reverseWord = ''
 
 for (
-    alert('Iniciando os cálculos');
-    tabuada <= 20;
-    tabuada++
-)   {
-    let calc = tabuada*numero
-    res += "\n" + numero + "x" + tabuada + "=" + calc 
+    let i = word.length -1;
+    i >= 0;
+    i--
+) {
+    reverseWord += word[i]
 }
 
-alert(res)
+if (word === reverseWord) {
+    alert(`A palavra ${word} é uma palíndromo`)
+} else {
+    alert(`A palavra ${word} NÃO é uma palíndromo!\n${word} !== ${reverseWord}`)
+}
