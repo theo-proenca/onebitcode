@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 013 - Jogo da Velha (TicTacToe)</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main data-theme="dark">
+        <header class="flex align-center justify-between">
+          <h2>Exercício 013 - Jogo da Velha (TicTacToe)</h2>
+          <button id="themeSwitcher">Switch Theme Dark/Light</button>
+        </header>
+        <div id="players">
+          <label for="p1">Player 1: </label>
+          <input type="text" name="player" id="p1">
+          <br><br>
+          <label for="p2">Player 2: </label>
+          <input type="text" name="player" id="p2">
+          <br><br>
+          <button id="start">Start Game</button>
+        </div>
+        <div id="current"></div>
+        <div id="keys">
+          <button class="keysBttn" data-value="" id="tile1"></button>
+          <button class="keysBttn" data-value="" id="tile2"></button>
+          <button class="keysBttn" data-value="" id="tile3"></button>
+          <button class="keysBttn" data-value="" id="tile4"></button>
+          <button class="keysBttn" data-value="" id="tile5"></button>
+          <button class="keysBttn" data-value="" id="tile6"></button>
+          <button class="keysBttn" data-value="" id="tile7"></button>
+          <button class="keysBttn" data-value="" id="tile8"></button>
+          <button class="keysBttn" data-value="" id="tile9"></button>
+        </div>
+        <div id="restart"></div>
+      </main>
+</body>
+</html>
