@@ -1,8 +1,8 @@
 const Database = require("./Database.js")
 const Author = require("./entities/Author.js")
-const Book = require("./entities/Book")
-const Order = require("./entities/Order")
-const Poster = require("./entities/Poster")
+const Book = require("./entities/Book.js")
+const Order = require("./entities/Order.js")
+const Poster = require("./entities/Poster.js")
 const User = require("./entities/User.js")
 
 module.exports = class App {
